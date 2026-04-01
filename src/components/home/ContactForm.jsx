@@ -99,7 +99,7 @@ const ContactForm = () => {
               }}
             >
               <DotLottieReact
-                src="src/assets/Contact_Green.json"   // or "/assets/Developer_Yoga.lottie"
+                src="./assets/Contact_Green.json"   // or "/assets/Developer_Yoga.lottie"
                 loop
                 autoplay
                 style={{ width: '100%', height: '100%', maxWidth: '420px' }}

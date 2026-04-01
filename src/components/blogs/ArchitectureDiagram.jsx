@@ -28,7 +28,7 @@ const ArchitectureDiagram = () => {
             >
                 System Architecture — E-Commerce Microservices
             </Typography>
-            <img src="/src/assets/new_dig.svg" style={{ maxWidth: "100%" }} />
+            <img src="./assets/new_dig.svg" style={{ maxWidth: "100%" }} />
 
         </Box>
     );
