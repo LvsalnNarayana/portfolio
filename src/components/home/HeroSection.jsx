@@ -61,7 +61,7 @@ const HeroSection = () => {
           }}
         >
           <DotLottieReact
-            src="../../assets/Developer_Yoga.lottie"   // or "/assets/Developer_Yoga.lottie"
+            src="/assets/Developer_Yoga.lottie"   // or "/assets/Developer_Yoga.lottie"
             loop
             autoplay
             style={{ width: '100%', height: '100%', maxWidth: '420px' }}
