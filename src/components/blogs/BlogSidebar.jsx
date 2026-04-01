@@ -11,6 +11,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
    SIDEBAR
 ============================================================ */
 
+
 const BlogSidebar = ({ activeSection, onNavigate, blogData }) => (
     <Box sx={{
         pb: 10,
