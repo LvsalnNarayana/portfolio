@@ -13,7 +13,7 @@ import ComparisonTable from "./ComparisionTable";
 import MetricCards from "./MetricCards";
 import Timeline from "./Timeline";
 import LatencyHeatmap from "./LatencyHeatMap";
-import BlogSidebar from "./BlogSideBar";
+import BlogSidebar from "./BlogSidebar";
 
 const blogData = {
   title: "E-Commerce Load Balancing on Kubernetes",
