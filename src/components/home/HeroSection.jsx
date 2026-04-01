@@ -3,7 +3,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GradientText from './GradientText';
-
+import Developer_Yoga from "../../assets/Developer_Yoga.lottie";
 const HeroSection = () => {
   const theme = useTheme();
 
@@ -61,7 +61,7 @@ const HeroSection = () => {
           }}
         >
           <DotLottieReact
-            src="../../assets/Developer_Yoga.lottie"   // or "/assets/Developer_Yoga.lottie"
+            src={Developer_Yoga}  // or "/assets/Developer_Yoga.lottie"
             loop
             autoplay
             style={{ width: '100%', height: '100%', maxWidth: '420px' }}

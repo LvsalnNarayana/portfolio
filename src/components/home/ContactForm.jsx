@@ -12,6 +12,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import Footer from '../Footer';
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import contactAnimation from "../../assets/Contact_Green.json";
 const ContactForm = () => {
   const [form, setForm] = useState({
     name: '',
@@ -99,7 +100,7 @@ const ContactForm = () => {
               }}
             >
               <DotLottieReact
-                src="../../assets/Contact_Green.json"   // or "/assets/Developer_Yoga.lottie"
+                src={contactAnimation}   // or "/assets/Developer_Yoga.lottie"
                 loop
                 autoplay
                 style={{ width: '100%', height: '100%', maxWidth: '420px' }}
