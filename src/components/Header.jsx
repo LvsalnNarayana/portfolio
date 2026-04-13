@@ -125,15 +125,16 @@ const Header = () => {
                 {/* Logo */}
                 <RouterLink to="/" style={{ textDecoration: 'none' }}>
                     <Typography
-                        variant="h3"
+                        variant="h5"
                         sx={(theme) => ({
+                            fontSize: "1.5rem",
                             fontWeight: 700,
                             color: theme.palette.primary.main,
                             cursor: 'pointer',
                             '&:hover': { opacity: 0.88 },
                         })}
                     >
-                        N.Dev
+                        Narayana
                     </Typography>
                 </RouterLink>
 
